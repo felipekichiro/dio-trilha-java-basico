@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "projectName": "JAVA-terminal_b9281ed4"
+        },
+        {
+            "type": "java",
+            "name": "Comentarios",
+            "request": "launch",
+            "mainClass": "Comentarios",
+            "projectName": "JAVA-terminal_b9281ed4"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "MinhaClasse",
+            "projectName": "JAVA-terminal_b9281ed4"
+        }
+    ]
+}
